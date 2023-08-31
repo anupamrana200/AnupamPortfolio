@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
   :root {
     --primary-color: #4f46e5;
@@ -29,6 +29,16 @@
     max-width: 600px;
     margin: auto;
     text-align: center;
+  }
+
+  .container-center-blogs{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .container-blog-readmore {
+    max-width: 600px;
+    margin: auto;
   }
 
   /* links */
