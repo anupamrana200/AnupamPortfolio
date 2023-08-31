@@ -2,7 +2,7 @@
 
   :root {
     --primary-color: #4f46e5;
-    --off-white: #f1f5f9;
+    --off-blue: #eef2ff;
     --dark-gray: #6B7280;
   }
 
@@ -28,6 +28,7 @@
   .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
   }
 
   /* links */
@@ -37,13 +38,14 @@
   }
   .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: white;
+    margin-right: 20px;
   }
 
   .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     border: 1px solid var(--primary-color);
   }
 
@@ -89,6 +91,7 @@
   .hero {
     padding: 2rem;
     padding-top: 5rem;
+    /* text-align: center; */
   }
 
   .hero .hero-img{
@@ -107,6 +110,10 @@
     color: var(--primary-color);
   }
 
+  .hero .introduction {
+    text-align: center;
+  }
+
 
   /* section */
 
@@ -118,7 +125,7 @@
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--off-blue);
 }
 
 /* footer */
@@ -142,5 +149,10 @@
 .footer ul {
     padding-inline-start: 0px;
 } 
+
+.footer .social-logo {
+  max-width: 40px;
+  margin: auto;
+}
 
 
